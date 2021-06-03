@@ -1,0 +1,38 @@
+body {
+    background-color: #213b50;
+}
+
+* {
+    color: white;
+    padding: 0.5em;
+    margin: 0.1em;
+    width: 20em;
+}
+
+input,
+select,
+textarea {
+    background-color: #2b4a64;
+    border:#213b50;
+    display: block;
+ }
+
+[name="lastname"] {
+    background-color: #4e708c;
+    
+}
+
+[type="submit"] {
+    background-color: #1ac056;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+    padding: 1em;
+    width: 5em;
+}
+
+input:hover {
+    color:#46e881;
+}
+
+
