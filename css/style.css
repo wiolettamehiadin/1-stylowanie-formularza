@@ -1,38 +1,54 @@
-body {
+form {
     background-color: #213b50;
-}
-
-* {
-    color: white;
-    padding: 0.5em;
-    margin: 0.1em;
-    width: 20em;
+    color: #fff;
+    padding: 20px;
 }
 
 input,
 select,
 textarea {
     background-color: #2b4a64;
-    border:#213b50;
-    display: block;
+    border: 1px solid #213b50;
+    color: #fff;
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 5px;
  }
 
-[name="lastname"] {
-    background-color: #4e708c;
-    
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
 }
 
-[type="submit"] {
+input:focus,
+select:focus,
+textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid #fff;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+label[for*="male"],
+label[for="agreement"] {
+    display: inline;
+}
+
+input[type="submit"] {
     background-color: #1ac056;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 10px;
-    padding: 1em;
-    width: 5em;
+    cursor: pointer;
+    padding: 10px 20px;
+    width: auto;
 }
 
-input:hover {
-    color:#46e881;
+input[type="submit"]:hover {
+    background-color:#46e881;
 }
 
 
